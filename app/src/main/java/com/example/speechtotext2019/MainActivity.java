@@ -18,10 +18,14 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     String test ="測試";
-    int xxx= 1234;
+    String test2 = "測試 Reset";
+    String test3 = "測試 Reset";
     private TextView txtSpeechInput;
     private ImageButton btnSpeak;
     private final int REQ_CODE_SPEECH_INPUT = 100;
+    void testBranch() {
+        
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
