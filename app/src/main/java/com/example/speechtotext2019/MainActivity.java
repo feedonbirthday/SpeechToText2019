@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton btnSpeak;
     private final int REQ_CODE_SPEECH_INPUT = 100;
     void testBranch() {
-        
+
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
